@@ -14,7 +14,7 @@
       "stratum_url": "stratum+tcp://stratum.beta.bip300.xyz:3334",
       "dashboard_url": "https://pool.beta.bip300.xyz",
       "status_url": "https://pool.beta.bip300.xyz/api/status",
-      "operator_address": "bc1qskyznnpqpyp58ynlh036p3jt69ldptlnqhstcd",
+      "operator_address": "bc1qljvzxk0tp6qtrunt590z5rtdhs8jhkkn4ny4rm",
       "pool_btc_address": null,
       "payout": "The stratum username is your BTC address; the coinbase pays every miner in the PPLNS window directly, so the pool never holds funds.",
       "software": "simplepool",
