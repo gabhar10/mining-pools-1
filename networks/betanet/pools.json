@@ -1,7 +1,7 @@
 {
   "$comment": "The pools on the betanet forknet. Add yours by opening a PR that appends one object to \"pools\". Every field marked required in README.md must be present, and \"chain\" must read \"betanet\". coinbase_tag is the important one: it is the only thing that lets an explorer attribute a mined block to you. This file is hand-edited; the pools-v2.json beside it is generated from it by tools/build.py, so run that script and commit its output in the same PR.",
   "network": "betanet",
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "schema_version": 1,
   "pools": [
     {
@@ -73,6 +73,23 @@
       "payout": "Pow.re's own fleet only, no outside hashrate. Solo mode: each block's coinbase pays Pow.re's address directly.",
       "software": "simplepool",
       "contact": "gabriel.hardy@pow.re"
+    },
+    {
+      "name": "avonpool",
+      "operator": "avonpool.xyz",
+      "chain": "betanet",
+      "mode": "solo",
+      "fee_bps": 100,
+      "coinbase_tag": "/avonpool/",
+      "stratum_url": "stratum+tcp://pool.beta.avonpool.xyz:3334",
+      "dashboard_url": "https://pool.beta.avonpool.xyz",
+      "status_url": "https://pool.beta.avonpool.xyz/api/status",
+      "operator_address": "bc1qljvzxk0tp6qtrunt590z5rtdhs8jhkkn4ny4rm",
+      "pool_btc_address": null,
+      "payout": "The stratum username is your own BTC address (bc1q, 1 or 3 — not taproot); solo mode pays the finder's address directly in that block's coinbase, minus the 1% operator fee.",
+      "software": "simplepool",
+      "logo": "mining-pool-logos/avonpool.svg",
+      "contact": null
     }
   ]
 }

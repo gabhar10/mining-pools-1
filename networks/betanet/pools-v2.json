@@ -1919,5 +1919,16 @@
       "/powre/"
     ],
     "link": ""
+  },
+  {
+    "id": 2005,
+    "name": "avonpool",
+    "addresses": [
+      "bc1qljvzxk0tp6qtrunt590z5rtdhs8jhkkn4ny4rm"
+    ],
+    "tags": [
+      "/avonpool/"
+    ],
+    "link": "https://pool.beta.avonpool.xyz"
   }
 ]
